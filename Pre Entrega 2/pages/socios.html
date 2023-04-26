@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Socios</title>
+</head>
+<body>
+    
+  <header class="d-flex flex-row-reverse bg-info text-dark">
+        
+    <div>
+      <img class="logorc" src="https://www.racingclub.com.ar/img/escudo/escudo1995.png"
+      alt="logo"
+      height="64px">
+  </div>
+      
+  <nav class="navbar navbar-expand-lg bg-primary ">
+          <div class="container-fluid">
+            <button class="navbar-toggler bg-info text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                  <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="../index.html"> Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="../pages/socios.html"> Socios</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="../pages/multimedia.html"> Multimedia</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="../pages/historia.html"> Historia</a>
+                      <li class="nav-item">
+                          <a class="nav-link" href="../pages/sobre-nosotros.html"> Sobre Nosotros</a>
+                    </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+  
+  </header>    
+
+    <!-- Dentro de Main van todas las secciones de nuestro HTML su contenido principal -->
+    <main>
+        
+      <form class="row g-3 needs-validation" novalidate>
+        <div class="col-md-4">
+          <label for="validationCustom01" class="form-label">Nombre</label>
+          <input type="text" class="form-control" id="validationCustom01" value="Lisandro" required>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+        </div>
+        <div class="col-md-4">
+          <label for="validationCustom02" class="form-label">Apellido</label>
+          <input type="text" class="form-control" id="validationCustom02" value="Lopez" required>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+        </div>
+        <div class="col-md-4">
+          <label for="validationCustomUsername" class="form-label">Mail
+          </label>
+          <div class="input-group has-validation">
+            <span class="input-group-text" id="inputGroupPrepend">@</span>
+            <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+            <div class="invalid-feedback">
+            Elija su Usuario
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <label for="validationCustom03" class="form-label">Localidad</label>
+          <input type="text" class="form-control" id="validationCustom03" required>
+          <div class="invalid-feedback">
+            Indique su Localidad
+          </div>
+        </div>
+        <div class="col-md-3">
+          <label for="validationCustom04" class="form-label">Provincia</label>
+          <select class="form-select" id="validationCustom04" required>
+            <option selected disabled value="">Seleccionar...</option>
+            <option>...</option>
+          </select>
+          <div class="invalid-feedback">
+            Indique su Provincia
+          </div>
+        </div>
+        <div class="col-md-3">
+          <label for="validationCustom05" class="form-label">CP
+          </label>
+          <input type="text" class="form-control" id="validationCustom05" required>
+          <div class="invalid-feedback">
+            Indique su Codigo Postal
+          </div>
+        </div>
+        <div class="col-12">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+            <label class="form-check-label" for="invalidCheck">
+             </label>
+            <div class="invalid-feedback">
+              Reclinar Terminos y Condiciones
+            </div>
+          </div>
+        </div>
+        <div class="col-12">
+          <button class="btn btn-primary" type="submit">Corroborar Datos</button>
+        </div>
+      </form>
+        
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6562.9676054045685!2d-58.37645933032038!3d-34.66773713522867!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccceccdd8d455%3A0xe771f022c22a954b!2sEstadio%20Presidente%20Per%C3%B3n!5e0!3m2!1ses!2sar!4v1680488839627!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        
+        
+    </main>
+
+
+    <footer class="pie ">
+        <!-- para agrupar un texto a una imagen se utiliza un DIV -->
+          
+        <div>
+            <img class="ig" src="https://w7.pngwing.com/pngs/83/597/png-transparent-social-media-sonus-faber-s-p-a-computer-icons-instagram-neon-purple-violet-text-thumbnail.png" alt="icono-ig" height="30px">
+            <p> Instagram </p>
+        </div>
+
+        <div>
+            <img class="facebook" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSN6MB1yp0GiDicGWa3ZweLv1Zrya-LR2xq9A6gi40&s" alt="icono-fb" height="30px">
+            <p> Facebook </p>
+        </div>
+
+        <div>
+            <img class="Twitter" src="https://png.pngtree.com/element_our/png/20181011/twitter-social-media-icon-design-template-vector-png_127081.jpg" alt="icono-tw" height="30px">
+            <p> Twitter </p>
+        </div>
+   
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+
+</body>
+</html>
